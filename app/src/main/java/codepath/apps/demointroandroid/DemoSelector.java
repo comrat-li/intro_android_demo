@@ -22,12 +22,13 @@ public class DemoSelector extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
+
 		new Instabug.Builder(this, "ac321e8e80d06adc1231e4f4ab7ad785")
-	      .setInvocationEvents(
-		InstabugInvocationEvent.SHAKE,
-		InstabugInvocationEvent.FLOATING_BUTTON)
-	      .build();
+      		.setInvocationEvents(
+        	InstabugInvocationEvent.SHAKE,
+        	InstabugInvocationEvent.FLOATING_BUTTON)
+      		.build();
+  }
 	}
 		
 		setContentView(R.layout.activity_demo_selector);
