@@ -5,8 +5,8 @@ android {
 
     defaultConfig {
         applicationId "codepath.apps.demointroandroid"
-        minSdkVersion 21
-        targetSdkVersion 28
+        minSdkVersion 23
+        targetSdkVersion 29
     }
 
     buildTypes {
@@ -20,5 +20,4 @@ android {
 dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.codepath.libraries:asynchttpclient:0.1.0'
-    implementation 'com.instabug.library:instabug:10.0.0'
 }
