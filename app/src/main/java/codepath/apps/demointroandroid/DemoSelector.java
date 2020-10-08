@@ -28,11 +28,9 @@ public class DemoSelector extends Activity {
         	InstabugInvocationEvent.SHAKE,
         	InstabugInvocationEvent.FLOATING_BUTTON)
       		.build();
-  }
-	}
 		
 		setContentView(R.layout.activity_demo_selector);
-	    setupChaptersListView();
+	    	setupChaptersListView();
 	}
 
 	@Override
